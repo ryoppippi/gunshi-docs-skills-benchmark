@@ -31,7 +31,7 @@ https://github.com/user-attachments/assets/a195e53c-a546-4b6b-b6a3-fbbd0a6e5f2c
 
 ## Miscellaneous
 
-Although MCPs like Context7 and DevWiki MCP can make it easier to extract relevant information from Gunshi's repository, they still take time to fetch data online.
+Although MCPs like Context7 and DeepWiki MCP can make it easier to extract relevant information from Gunshi's repository, they still take time to fetch data online.
 
 
 ## Related
