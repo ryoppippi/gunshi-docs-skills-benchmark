@@ -25,8 +25,8 @@
           shellHook = ''
             echo "StackOne AI Node SDK development environment"
 
-            # find dir including package.json and run "bun install" in each directory excluding node_modules
-            find . -type f -name "package.json" -not -path "*/node_modules/*" -execdir bun install \;
+            # find dir including package.json and run "bun ci" in each directory excluding node_modules
+            find . -type f -name "package.json" -not -path "*/node_modules/*" -execdir bun ci \;
           '';
         };
       }
