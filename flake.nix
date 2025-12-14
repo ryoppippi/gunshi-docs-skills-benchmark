@@ -1,5 +1,5 @@
 {
-  description = "gunshi benchmark between skills vs withoug skills";
+  description = "gunshi benchmark between skills vs without skills";
 
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixpkgs-unstable";
