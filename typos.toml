@@ -1,0 +1,14 @@
+[default]
+locale = 'en-gb'
+extend-ignore-re = [
+  "(?Rm)^.*(<!--|#|//)\\s*spellchecker:disable-line(-->|\n)?$",
+  "(?s)(<!--|#|//)\\s*spellchecker:off\\s*(-->|\n).*?(<!--|#|//)\\s*spellchecker:on",
+]
+
+[default.extend-words]
+Edn = "Edn"
+items-center = "items-center"
+justify-center = "justify-center"
+
+[files]
+extend-exclude = [ "node_modules/**", ]

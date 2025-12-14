@@ -11,12 +11,15 @@
     flake-utils.lib.eachDefaultSystem (system:
       let
         pkgs = nixpkgs.legacyPackages.${system};
+        pkgsOverlay = claude-code-overlay.packages.${system};
       in
       {
         devShells.default = pkgs.mkShell {
           buildInputs = [
             pkgs.bun
-            claude-code-overlay.packages.${system}.default
+            pkgs.typos
+            pkgs.typos-lsp
+            pkgsOverlay.default
           ];
 
           shellHook = ''
